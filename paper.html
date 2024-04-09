@@ -1,0 +1,656 @@
+<html>
+<head>
+<script type="text/javascript">
+function result()
+{
+var name=document.getElementById("name").value;
+var fname=document.getElementById("fname").value;
+var Course=document.getElementById("Course").value;
+
+var count=0,mm=50;
+
+//for question 1
+var ans1=document.getElementsByName("1");
+var i;
+for(i=0; i<ans1.length; i++)
+{if(ans1[i].checked){if(ans1[i].value=="Transport"){count++;}}}
+
+//for question 2
+var ans2=document.getElementsByName("2");
+var i;
+for(i=0; i<ans2.length; i++)
+{if(ans2[i].checked){if(ans2[i].value=="MQTT"){count++;}}}
+//for question 3
+var ans3=document.getElementsByName("3");
+var i;
+for(i=0; i<ans3.length; i++)
+{if(ans3[i].checked){if(ans3[i].value=="Virtual Network Computing"){count++;}}}
+
+//for question 4
+var ans4=document.getElementsByName("4");
+var i;
+for(i=0; i<ans4.length; i++)
+{if(ans4[i].checked){if(ans4[i].value=="Group Iot"){count++;}}}
+//for question 5
+var ans5=document.getElementsByName("5");
+var i;
+for(i=0; i<ans5.length; i++)
+{if(ans5[i].checked){if(ans5[i].value=="TCP/IP"){count++;}}}
+
+//for question 6
+var ans6=document.getElementsByName("6");
+var i;
+for(i=0; i<ans6.length; i++)
+{if(ans6[i].checked){if(ans6[i].value=="RETful API"){count++;}}}
+//for question 7
+var ans7=document.getElementsByName("7");
+var i;
+for(i=0; i<ans7.length; i++)
+{if(ans7[i].checked){if(ans7[i].value=="Auto-pilot for an aircraft"){count++;}}}
+//for question 8
+var ans8=document.getElementsByName("8");
+var i;
+for(i=0; i<ans8.length; i++)
+{if(ans8[i].checked){if(ans8[i].value=="Layer 3 (Network)"){count++;}}}
+//for question 9
+var ans9=document.getElementsByName("9");
+var i;
+for(i=0; i<ans9.length; i++)
+{if(ans9[i].checked){if(ans9[i].value=="REFID/NFC"){count++;}}}
+
+//for question 10
+var ans10=document.getElementsByName("10");
+var i;
+for(i=0; i<ans10.length; i++)
+{if(ans10[i].checked){if(ans10[i].value=="Application Layer"){count++;}}}
+//for question 11
+var ans11=document.getElementsByName("11");
+var i;
+for(i=0; i<ans11.length; i++)
+{if(ans11[i].checked){if(ans11[i].value=="Internet protocol"){count++;}}}
+
+//for question 12
+var ans12=document.getElementsByName("12");
+var i;
+for(i=0; i<ans12.length; i++)
+{if(ans12[i].checked){if(ans12[i].value=="In open loop system"){count++;}}}
+//for question 13
+var ans13=document.getElementsByName("13");
+var i;
+for(i=0; i<ans13.length; i++)
+{if(ans13[i].checked){if(ans13[i].value=="Technology and ecosysem"){count++;}}}
+//for question 14
+var ans14=document.getElementsByName("14");
+var i;
+for(i=0; i<ans14.length; i++)
+{if(ans14[i].checked){if(ans14[i].value=="Third layer"){count++;}}}
+//for question 15
+var ans15=document.getElementsByName("15");
+var i;
+for(i=0; i<ans15.length; i++)
+{if(ans15[i].checked){if(ans15[i].value=="Packets"){count++;}}}
+
+
+//for question 16
+var ans16=document.getElementsByName("16");
+var i;
+for(i=0; i<ans16.length; i++)
+{if(ans16[i].checked){if(ans16[i].value=="Source and Destination IP Address"){count++;}}}
+//for question 17
+var ans17=document.getElementsByName("17");
+var i;
+for(i=0; i<ans17.length; i++)
+{if(ans17[i].checked){if(ans17[i].value=="Feedback"){count++;}}}
+
+//for question 18
+var ans18=document.getElementsByName("18");
+var i;
+for(i=0; i<ans18.length; i++)
+{if(ans18[i].checked){if(ans18[i].value=="UDP"){count++;}}}
+
+
+//for question 19
+var ans19=document.getElementsByName("19");
+var i;
+for(i=0; i<ans19.length; i++)
+{if(ans19[i].checked){if(ans19[i].value=="Session layer"){count++;}}}
+
+
+//for question 20
+var ans20=document.getElementsByName("20");
+var i;
+for(i=0; i<ans20.length; i++)
+{if(ans20[i].checked){if(ans20[i].value=="Backbone"){count++;}}}
+
+//for question 21
+var ans21=document.getElementsByName("21");
+var i;
+for(i=0; i<ans21.length; i++)
+{if(ans21[i].checked){if(ans21[i].value=="Open"){count++;}}}
+
+
+//for question 22
+var ans22=document.getElementsByName("22");
+var i;
+for(i=0; i<ans22.length; i++)
+{if(ans22[i].checked){if(ans22[i].value=="Feedback"){count++;}}}
+
+//for question 23
+var ans23=document.getElementsByName("23");
+var i;
+for(i=0; i<ans23.length; i++)
+{if(ans23[i].checked){if(ans23[i].value=="Washing machine"){count++;}}}
+//for question 24
+var ans24=document.getElementsByName("24");
+var i;
+for(i=0; i<ans24.length; i++)
+{if(ans24[i].checked){if(ans24[i].value=="Host"){count++;}}}
+
+
+//for question 25
+var ans25=document.getElementsByName("25");
+var i;
+for(i=0; i<ans25.length; i++)
+{if(ans25[i].checked){if(ans25[i].value=="Open loop control system"){count++;}}}
+//for question 26
+var ans26=document.getElementsByName("26");
+var i;
+for(i=0; i<ans26.length; i++)
+{if(ans26[i].checked){if(ans26[i].value=="Closed loop control system"){count++;}}}
+//for question 27
+var ans27=document.getElementsByName("27");
+var i;
+for(i=0; i<ans27.length; i++)
+{if(ans27[i].checked){if(ans27[i].value=="SISO"){count++;}}}
+//for question 28
+var ans28=document.getElementsByName("28");
+var i;
+for(i=0; i<ans28.length; i++)
+{if(ans28[i].checked){if(ans28[i].value=="Atmosphere"){count++;}}}
+//for question 29
+var ans29=document.getElementsByName("29");
+var i;
+for(i=0; i<ans29.length; i++)
+{if(ans29[i].checked){if(ans29[i].value=="Glass"){count++;}}}
+//for question 30
+var ans30=document.getElementsByName("30");
+var i;
+for(i=0; i<ans30.length; i++)
+{if(ans30[i].checked){if(ans30[i].value=="Data-link"){count++;}}}
+//for question 31
+var ans31=document.getElementsByName("31");
+var i;
+for(i=0; i<ans31.length; i++)
+{if(ans31[i].checked){if(ans31[i].value=="Guided or Unguided"){count++;}}}
+//for question 32
+var ans32=document.getElementsByName("32");
+var i;
+for(i=0; i<ans32.length; i++)
+{if(ans32[i].checked){if(ans32[i].value=="Presentation"){count++;}}}
+//for question 33
+var ans33=document.getElementsByName("33");
+var i;
+for(i=0; i<ans33.length; i++)
+{if(ans33[i].checked){if(ans33[i].value=="Data link layer"){count++;}}}
+//for question 34
+var ans34=document.getElementsByName("34");
+var i;
+for(i=0; i<ans34.length; i++)
+{if(ans34[i].checked){if(ans34[i].value=="Feedback"){count++;}}}
+//for question 35
+var ans35=document.getElementsByName("35");
+var i;
+for(i=0; i<ans35.length; i++)
+{if(ans35[i].checked){if(ans35[i].value=="Transport"){count++;}}}
+//for question 36
+var ans36=document.getElementsByName("36");
+var i;
+for(i=0; i<ans36.length; i++)
+{if(ans36[i].checked){if(ans36[i].value=="Optical fiber"){count++;}}}
+//for question 37
+var ans37=document.getElementsByName("37");
+var i;
+for(i=0; i<ans37.length; i++)
+{if(ans37[i].checked){if(ans37[i].value=="Open loop control system"){count++;}}}
+//for question 38
+var ans38=document.getElementsByName("38");
+var i;
+for(i=0; i<ans38.length; i++)
+{if(ans38[i].checked){if(ans38[i].value=="Data link layer"){count++;}}}
+//for question 39
+var ans39=document.getElementsByName("39");
+var i;
+for(i=0; i<ans39.length; i++)
+{if(ans39[i].checked){if(ans39[i].value=="Zigbee"){count++;}}}
+//for question 40
+var ans40=document.getElementsByName("40");
+var i;
+for(i=0; i<ans40.length; i++)
+{if(ans40[i].checked){if(ans40[i].value=="Inter-Integrated circuit"){count++;}}}
+//for question 41
+var ans41=document.getElementsByName("41");
+var i;
+for(i=0; i<ans41.length; i++)
+{if(ans41[i].checked){if(ans41[i].value=="Half duplex mode"){count++;}}}
+//for question 42
+var ans42=document.getElementsByName("42");
+var i;
+for(i=0; i<ans42.length; i++)
+{if(ans42[i].checked){if(ans42[i].value=="127"){count++;}}}
+//for question 43
+var ans43=document.getElementsByName("43");
+var i;
+for(i=0; i<ans43.length; i++)
+{if(ans43[i].checked){if(ans43[i].value=="Multiple master and multiple slave"){count++;}}}
+//for question 44
+var ans44=document.getElementsByName("44");
+var i;
+for(i=0; i<ans44.length; i++)
+{if(ans44[i].checked){if(ans44[i].value=="Group IoT"){count++;}}}
+//for question 45
+var ans45=document.getElementsByName("45");
+var i;
+for(i=0; i<ans45.length; i++)
+{if(ans45[i].checked){if(ans45[i].value=="Network layer"){count++;}}}
+//for question 46
+var ans46=document.getElementsByName("46");
+var i;
+for(i=0; i<ans46.length; i++)
+{if(ans46[i].checked){if(ans46[i].value=="1980"){count++;}}}
+//for question 47
+var ans47=document.getElementsByName("47");
+var i;
+for(i=0; i<ans47.length; i++)
+{if(ans47[i].checked){if(ans47[i].value=="Motorola"){count++;}}}
+//for question 48
+var ans48=document.getElementsByName("48");
+var i;
+for(i=0; i<ans48.length; i++)
+{if(ans48[i].checked){if(ans48[i].value=="Physical object+controller, sensor and actuator + internet"){count++;}}}
+//for question 49
+var ans49=document.getElementsByName("49");
+var i;
+for(i=0; i<ans49.length; i++)
+{if(ans49[i].checked){if(ans49[i].value=="128 bits"){count++;}}}
+//for question 50
+var ans50=document.getElementsByName("50");
+var i;
+for(i=0; i<ans50.length; i++)
+{if(ans50[i].checked){if(ans50[i].value=="full duplex"){count++;}}}
+
+
+
+
+
+document.write("Name:"+name+"<br>Father's Name:"+fname+"<br>Course:"+Course+"<br>Total right question:"+count+"<br>Percentage:"+count*100/mm+"%");
+}
+</script>
+</head>
+<body bgcolor="lightblue" text="black"><br>
+<font size="5" color="blue"><center>Firstly fill your information then start your test<br>
+<input type="text" placeholder="Enter your Name" id="name"><br><br>
+<input type="text" placeholder="Enter your Father's Name" id="fname"><br><br>
+<input type="text" placeholder="Enter your Course" id="Course"><br><br>
+
+</center></font>
+<center><font color=blue>
+<ol type="1" style="font-size:40px;">
+<li >Which layer provides end-to-end comminications.
+<ol type="a">
+<li>Transport<input type="radio" name="1" value="Transport" ></li>
+<li>Internet<input type="radio" name="1" value="Internet"></li>
+<li>Application<input type="radio" name="1" value="Application"> </li>
+<li>None<input type="radio" name="1" value="None"></li>
+</ol></li>
+
+<li>Which protocal is light weight ?
+<ol type="a">
+<li>CoAp<input type="radio" name="2" value="CoAp"></li>
+<li>HTTP<input type="radio" name="2" value="HTTP"></li>
+<li>MQTT<input type="radio" name="2" value="MQTT"></li>
+<li>SPI<input type="radio" name="2" value="SPI"></li>
+</ol></li>
+<li>What does VNC stand for :
+<ol type="a">
+<li>Various Network computers<input type="radio" name="3" value="Various Network computers"></li>
+<li>Virtual Network Computing<input type="radio" name="3" value="Virtual Network Computing"></li>
+<li>Virtual Network Communcation<input type="radio" name="3" value="Virtual Network Communcation"></li>
+<li>None of the above<input type="radio" name="3" value="None of the above"></li>
+</ol></li>
+<li>Which category is used in the context of connected cars ?
+<ol type="a">
+<li>Personal Iot<input type="radio" name="4" value="Personal Iot"></li>
+<li>Group Iot<input type="radio" name="4" value="Group Iot"></li>
+<li>Community Iot<input type="radio" name="4" value="Community Iot"></li>
+<li>Industrial Iot<input type="radio" name="4" value="Industrial Iot"></li>
+</ol></li>
+<li>Which protocal is used to link all the devices in the Iot ? 
+<ol type="a">
+<li>TCP/IP<input type="radio" name="5" value="TCP/IP"></li>
+<li>Network<input type="radio" name="5" value="Network"></li>
+<li>UDP<input type="radio" name="5" value="UDP"></li>
+<li>HTTP<input type="radio" name="5" value="HTTP"></li>
+</ol></li>
+<li>___ allow us to control electronic components 
+<ol type="a">
+<li>HTTP<input type="radio" name="6" value="HTTP"></li>
+<li>RESTful API<input type="radio" name="6" value="RESTful API"></li>
+<li>RETful API<input type="radio" name="6" value="RETful API"></li>
+<li>MQTT<input type="radio" name="6" value="MQTT"></li>
+</ol></li>
+<li>...... is a closed loop system 
+<ol type="a">
+<li>Auto-pilot for an aircraft<input type="radio" name="7" value="Auto-pilot for an aircraft"></li>
+<li>Direct current generator<input type="radio" name="7" value="Direct current generator"></li>
+<li>Car starter<input type="radio" name="7" value="Car starter"></li>
+<li>Electric switch<input type="radio" name="7" value="Electric switch"></li>
+</ol></li>
+<li>Router operate at ...... layer of OSI reference model ?
+<ol type="a">
+<li>Layer 2 (Data link)<input type="radio" name="8" value="Layer 2 (Data link)"></li>
+<li>Layer 3 (Network)<input type="radio" name="8" value="Layer 3 (Network)"></li>
+<li>Layer 1 (Physical)<input type="radio" name="8" value="Layer 1 (Physical)"></li>
+<li>Layer 4 (Transport)<input type="radio" name="8" value="Layer 4 (Transport)"></li>
+</ol></li>
+<li>____ tags, devices, smart phones useful in identification.
+<ol type="a">
+<li>IETF 6lO WPAN<input type="radio" name="9" value="IETF 6lO WPAN"></li>
+<li>IETF CoAP<input type="radio" name="9" value="IETF CoAP"></li>
+<li>REFID/NFC<input type="radio" name="9" value="REFID/NFC"></li>
+<li>None<input type="radio" name="9" value="None"></li>
+</ol></li>
+<li>Facilitates standarized data exchage for use by applicatios.
+<ol type="a">
+<li>Techonlogy and ecosystem<input type="radio" name="10" value="Techonlogy and ecosystem"></li>
+<li>Application Layer<input type="radio" name="10" value="Application Layer"></li>
+<li>Internet protocol<input type="radio" name="10" value="Internet protocol"></li>
+<li>In open loop system<input type="radio" name="10" value="In open loop system"></li>
+</ol></li>
+<li>The common protocols associated with the network layer.
+<ol type="a">
+<li>Internet protocol<input type="radio" name="11" value="Internet protocol"></li>
+<li>In open loop system<input type="radio" name="11" value="In open loop system"></li>
+<li>Packets<input type="radio" name="11" value="Packets"></li>
+<li>Third level<input type="radio" name="11" value="Third level"></li>
+</ol></li>
+<li>The  control action is independent of the output.
+<ol type="a">
+<li>Application layer<input type="radio" name="12" value="Application layer"></li>
+<li>Packets<input type="radio" name="12" value="Packets"></li>
+<li>Session layer<input type="radio" name="12" value="Session layer"></li>
+<li>In open loop system<input type="radio" name="12" value="In open loop system"></li>
+</ol></li>
+<li>What does design peovide ?
+<ol type="a">
+<li>Technology and ecosysem<input type="radio" name="13" value="Technology and ecosysem"></li>
+<li>Iot<input type="radio" name="13" value="Iot"></li>
+<li>UDP<input type="radio" name="13" value="UDP"></li>
+<li>NON<input type="radio" name="13" value="NON"></li>
+</ol></li>
+<li>Network layer in the OSI model ?
+<ol type="a">
+<li>Feedback<input type="radio" name="14" value="Feedback"></li>
+<li>Session layer<input type="radio" name="14" value="Session layer"></li>
+<li>Third layer<input type="radio" name="14" value="Third layer"></li>
+<li>Internet protocol<input type="radio" name="14" value="Internet protocol"></li>
+</ol></li>
+<li>Data in network layer is transferred in the form of ___
+<ol type="a">
+<li>Backbone<input type="radio" name="15" value="Backbone"></li>
+<li>Open<input type="radio" name="15" value="Open"></li>
+<li>Packets<input type="radio" name="15" value="Packets"></li>
+<li>UART<input type="radio" name="15" value="UART"></li>
+</ol></li>
+<li>Each IP  packet must contain .
+<ol type="a">
+<li>Feedback<input type="radio" name="16" value="Feedback"></li>
+<li>UDP<input type="radio" name="16" value="UDP"></li>
+<li>Source and Destination IP Address<input type="radio" name="16" value="Source and Destination IP Address"></li>
+<li>LAN<input type="radio" name="16" value="LAN"></li>
+</ol></li>
+<li>The special feature of a closed loop control system is.
+<ol type="a">
+<li>Host<input type="radio" name="17" value="Host"></li>
+<li>Feedback<input type="radio" name="17" value="Feedback"></li>
+<li>Open<input type="radio" name="17" value="Open"></li>
+<li>Bus<input type="radio" name="17" value="Bus"></li>
+</ol></li>
+<li>Which transport layer protocols is used by DHCP?
+<ol type="a">
+<li>UDP<input type="radio" name="18" value="UDP"></li>
+<li>65<input type="radio" name="18" value="65"></li>
+<li>25<input type="radio" name="18" value="25"></li>
+<li>none<input type="radio" name="18" value="none"></li>
+</ol></li>
+<li>This layer is also  responsible for authentication and for re-estanblishing a connection after an interruption takes place.
+<ol type="a">
+<li>wahing machine<input type="radio" name="19" value="wahing machine"></li>
+<li>Feedback<input type="radio" name="19" value="Feedback"></li>
+<li>UART<input type="radio" name="19" value="UART"></li>
+<li>Session layer<input type="radio" name="19" value="Session layer"></li>
+</ol></li>
+<li>The network layer is cinsidered as the ____ of the network layer.
+<ol type="a">
+<li>25<input type="radio" name="20" value="25"></li>
+<li>Backbone<input type="radio" name="20" value="Backbone"></li>
+<li>Open<input type="radio" name="20" value="Open"></li>
+<li>UART<input type="radio" name="20" value="UART"></li>
+</ol></li>
+<li>An automatic toaster is a ____ loop control system .
+<ol type="a">
+<li>Open<input type="radio" name="21" value="Open"></li>
+<li>washing machine<input type="radio" name="21" value="washing machine"></li>
+<li>Host<input type="radio" name="21" value="Host"></li>
+<li>LAN<input type="radio" name="21" value="LAN"></li>
+</ol></li>
+<li>______ is a special feature of a closed loop control system.
+<ol type="a">
+<li>Open<input type="radio" name="22" value="Open"></li>
+<li>Transport layer<input type="radio" name="22" value="Transport layer"></li>
+<li>field controlled D.C motor<input type="radio" name="22" value="field controlled D.C motor"></li>
+<li>Feedback<input type="radio" name="22" value="Feedback"></li>
+</ol></li>
+
+<li>A ______ is an example of an open loop control system .
+<ol type="a">
+<li>Washing machine<input type="radio" name="23" value="Washing machine"></li>
+<li>LAN<input type="radio" name="23" value="LAN"></li>
+<li>25<input type="radio" name="23" value="25"></li>
+<li>OSI layer<input type="radio" name="23" value="OSI layer"></li>
+</ol></li>
+
+<li>Network layer protocol exits in ______
+<ol type="a">
+<li>Feedback<input type="radio" name="24" value="Feedback"></li>
+<li>65<input type="radio" name="24" value="65"></li>
+<li>IP<input type="radio" name="24" value="IP"></li>
+<li>Host<input type="radio" name="24" value="Host"></li>
+</ol></li>
+<li>Ek System jo feedback ka upyog kiye bina process ko control karne ke liye ek device ka upyog karti hai?
+<ol type="a">
+<li>Open loop control system<input type="radio" name="25" value="Open loop control system"></li>
+<li>Closed loop feedback control system<input type="radio" name="25" value="Closed loop feedback control system"></li>
+<li>Regulator<input type="radio" name="25" value="Regulator"></li>
+<li>All of the above<input type="radio" name="25" value="All of the above"></li>
+</ol></li>
+<li>Ek system jo output ke measurment ka upyog karta hai aur ise vanchhit output ke sath compare karta hai?
+<ol type="a">
+<li>Open loop control system<input type="radio" name="26" value="Open loop control system"></li>
+<li>Closed loop control system<input type="radio" name="26" value="Closed loop control system"></li>
+<li>Both a and b<input type="radio" name="26" value="Both a and b"></li>
+<li>None of these<input type="radio" name="26" value="None of these"></li>
+</ol></li>
+<li>Yah ek control system hai Jisamein keval ek input aur ek output hai?
+<ol type="a">
+<li>SISO<input type="radio" name="27" value="SISO"></li>
+<li>MIMO<input type="radio" name="27" value="MIMO"></li>
+<li>Both a and b<input type="radio" name="27" value="Both a and b"></li>
+<li>None of these<input type="radio" name="27" value="None of these"></li>
+</ol></li>
+<li>Nimnlikhit mein se kaun guided medium nahi hai?
+<ol type="a">
+<li>Twisted pair cable<input type="radio" name="28" value="Twisted pair cable"></li>
+<li>Fibre optic cable<input type="radio" name="28" value="Fibre optic cable"></li>
+<li>Co-axial cable<input type="radio" name="28" value="Co-axial cable"></li>
+<li>Atmosphere<input type="radio" name="28" value="Atmosphere"></li>
+</ol></li>
+<li>Optical fibre ke internal core structure mein ........... hai?
+<ol type="a">
+<li>Glass<input type="radio" name="29" value="Glass"></li>
+<li>Non-metallic<input type="radio" name="29" value="Non-metallic"></li>
+<li>Copper<input type="radio" name="29" value="Copper"></li>
+<li>Liquid<input type="radio" name="29" value="Liquid"></li>
+</ol></li>
+<li>OSI layer jo soochnaon ke logical units mein signals ko vyavsthit karati hai jise frame kaha jata hai .............?
+<ol type="a">
+<li>Transport<input type="radio" name="30" value="Transport"></li>
+<li>Physical<input type="radio" name="30" value="Physical"></li>
+<li>Data-link<input type="radio" name="30" value="Data-link"></li>
+<li>Application<input type="radio" name="30" value="Application"></li>
+</ol></li>
+<li>Transmission media ko aamtaur par is prakar classified kiya jata hai?
+<ol type="a">
+<li>Fixed or Unfixed<input type="radio" name="31" value="Fixed or Unfixed"></li>
+<li>Guided or Unguided<input type="radio" name="31" value="Guided or Unguided"></li>
+<li>Constant or variable<input type="radio" name="31" value="Constant or variable"></li>
+<li>None of these<input type="radio" name="31" value="None of these"></li>
+</ol></li>
+<li>OSI model mein kaun si layer data compression karati hai?
+<ol type="a">
+<li>Network<input type="radio" name="32" value="Network"></li>
+<li>Data-link<input type="radio" name="32" value="Data-link"></li>
+<li>Physical<input type="radio" name="32" value="Physical"></li>
+<li>Presentation<input type="radio" name="32" value="Presentation"></li>
+</ol></li>
+<li>Physical layers se bits ko frame mein parivartit kiya jata hai ......?
+<ol type="a">
+<li>Data link layer<input type="radio" name="33" value="Data link layer"></li>
+<li>Network layer<input type="radio" name="33" value="Network layer"></li>
+<li>Transport layer<input type="radio" name="33" value="Transport layer"></li>
+<li>None of these<input type="radio" name="33" value="None of these"></li>
+</ol></li>
+<li>closed loop control system ka arth hai ki iske system ki output is par nibhar karti hai .........?
+<ol type="a">
+<li>input<input type="radio" name="34" value="input"></li>
+<li>Processing<input type="radio" name="34" value="Processing"></li>
+<li>Feedback<input type="radio" name="34" value="Feedback"></li>
+<li>None of these<input type="radio" name="34" value="None of these"></li>
+</ol></li>
+<li>UDP and TCP are called.........
+<ol type="a">
+<li>Network<input type="radio" name="35" value="Network"></li>
+<li>Transport<input type="radio" name="35" value="Transport"></li>
+<li>Session<input type="radio" name="35" value="Session"></li>
+<li>Application<input type="radio" name="35" value="Application"></li>
+</ol></li>
+<li>Which of the following  communication medium supports highest data rate
+<ol type="a">
+<li>Optical fiber<input type="radio" name="36" value="Optical fiber"></li>
+<li>WiFi<input type="radio" name="36" value="WiFi"></li>
+<li>Bluetooth<input type="radio" name="36" value="Bluetooth"></li>
+<li>Ethernet<input type="radio" name="36" value="Ethernet"></li>
+</ol></li>
+<li>Mannual control system is also known as
+<ol type="a">
+<li>Open loop control system<input type="radio" name="37" value="Open loop control system"></li>
+<li>Close loop control system<input type="radio" name="37" value="Close loop control system"></li>
+<li>Feedback control system<input type="radio" name="37" value="Feedback control system"></li>
+<li>All of above<input type="radio" name="37" value="All of above"></li>
+</ol></li>
+<li>Which layer is used for wireless connection in IoT devices?
+<ol type="a">
+<li>Application layer<input type="radio" name="38" value="Application layer"></li>
+<li>Network layer<input type="radio" name="38" value="Network layer"></li>
+<li>Data link layer<input type="radio" name="38" value="Data link layer"></li>
+<li>Transport layer<input type="radio" name="38" value="Transport layer"></li>
+</ol></li>
+<li>Which protocol is commonly used for wireless sensor networks in IoT applications?
+<ol type="a">
+<li>TCP/IP<input type="radio" name="39" value="TCP/IP"></li>
+<li>Modbus<input type="radio" name="39" value="Modbus"></li>
+<li>BACNet<input type="radio" name="39" value="BACNet"></li>
+<li>Zigbee<input type="radio" name="39" value="Zigbee"></li>
+</ol></li>
+<li>What is the full form of I2C?
+<ol type="a">
+<li>Inter-Integrated circuit<input type="radio" name="40" value="Inter-Integrated circuit"></li>
+<li>Internet integrated circuit<input type="radio" name="40" value="Internet integrated circuit"></li>
+<li>infrastructure internet circuit<input type="radio" name="40" value="infrastructure internet circuit"></li>
+<li>None<input type="radio" name="40" value="None"></li>
+</ol></li>
+<li>On which mode works I2C?
+<ol type="a">
+<li>Simplex mode<input type="radio" name="41" value="Simplex mode"></li>
+<li>Half duplex mode<input type="radio" name="41" value="Half duplex mode"></li>
+<li>Full duplex mode<input type="radio" name="41" value="Full duplex mode"></li>
+<li>None<input type="radio" name="41" value="None"></li>
+</ol></li>
+<li>How many devices can be connected in I2C network?
+<ol type="a">
+<li>256<input type="radio" name="42" value="256"></li>
+<li>127<input type="radio" name="42" value="127"></li>
+<li>192<input type="radio" name="42" value="192"></li>
+<li>1000<input type="radio" name="42" value="1000"></li>
+</ol></li>
+<li>Which option is true for I2C?
+<ol type="a">
+<li>one master and one slave<input type="radio" name="43" value="one master and one slave"></li>
+<li>one master and multiple slave<input type="radio" name="43" value="one master and multiple slave"></li>
+<li>Multiple master and multiple slave<input type="radio" name="43" value="Multiple master and multiple slave"></li>
+<li>Multiple master and one slave<input type="radio" name="43" value="Multiple master and one slave"></li>
+</ol></li>
+<li>Which category is used in the context of connected cars.
+<ol type="a">
+<li>Personal IoT<input type="radio" name="44" value="Personal IoT"></li>
+<li>Group IoT<input type="radio" name="44" value="Group IoT"></li>
+<li>Community IoT<input type="radio" name="44" value="Community IoT"></li>
+<li>None of these<input type="radio" name="44" value="None of these"></li>
+</ol></li>
+<li>The .......... is the "central nervous system" that takes care of global services of IoTs.
+<ol type="a">
+<li>Application layer<input type="radio" name="45" value="Application layer"></li>
+<li>Network layer<input type="radio" name="45" value="Network layer"></li>
+<li>Preception layer<input type="radio" name="45" value="Preception layer"></li>
+<li>None of these<input type="radio" name="45" value="None of these"></li>
+</ol></li>
+<li>when was developed SPI communication?
+<ol type="a">
+<li>1975<input type="radio" name="46" value="1975"></li>
+<li>1979<input type="radio" name="46" value="1979"></li>
+<li>1980<input type="radio" name="46" value="1980"></li>
+<li>All of above<input type="radio" name="46" value="All of above"></li>
+</ol></li>
+<li>Which company was developed SPI communication?
+<ol type="a">
+<li>Nokia<input type="radio" name="47" value="Nokia"></li>
+<li>Phillips semiconductor<input type="radio" name="47" value="Phillips semiconductor"></li>
+<li>Motorola<input type="radio" name="47" value="Motorola"></li>
+<li>Samsung<input type="radio" name="47" value="Samsung"></li>
+</ol></li>
+<li>What is the equation of internet of things?
+<ol type="a">
+<li>Physical object+controller, sensor and actuator + internet<input type="radio" name="48" value="Physical object+controller, sensor and actuator + internet"></li>
+<li>Controller sensor and actuator + internet<input type="radio" name="48" value="Controller sensor and actuator + internet"></li>
+<li>Physical object + internet<input type="radio" name="48" value="Physical object + internet"></li>
+<li>Physical object + controller + internet<input type="radio" name="48" value="Physical object + controller + internet"></li>
+</ol></li>
+<li>What is the size of IPV6?
+<ol type="a">
+<li>48 bits<input type="radio" name="49" value="48 bits"></li>
+<li>32 bits<input type="radio" name="49" value="32 bits"></li>
+<li>128 bits<input type="radio" name="49" value="128 bits"></li>
+<li>128 bytes<input type="radio" name="49" value="128 bytes"></li>
+</ol></li>
+<li>On which mode works SPI?
+<ol type="a">
+<li>Simplex<input type="radio" name="50" value="Simplex"></li>
+<li>full duplex<input type="radio" name="50" value="full duplex"></li>
+<li>Half duplex<input type="radio" name="50" value="Half duplex"></li>
+<li>All of the above<input type="radio" name="50" value="All of the above"></li>
+</ol></li>
+</ol>
+<br><br><center><button onclick="result()">Finished</button></center>
+</font></center>
+
+</body>
+</html>
